@@ -19,7 +19,7 @@ function getScript(source, callback) {
 
 document.addEventListener("DOMContentLoaded", function(event) { 
 
-	getScript("http://code.jquery.com/jquery-latest.min.js", function(){
+	getScript("https://code.jquery.com/jquery-latest.min.js", function(){
 
 		$.getScript("../js/functions.js", function(){
 
