@@ -9,8 +9,8 @@
 	function inlineEscape(s)
 	{
 		return escape(s)
-			.replace(/!\[([^\]]*)]\(([^(]+)\)\(([^\]]*)\)/g, '</p></div></div><img alt="$1" src="$2" class="default"><div class="content"><p>')
-			.replace(/!\[([^\]]*)]\(([^(]+)\)/g, '<img alt="$1" src="$2" class="default">')
+			.replace(/!\[([^\]]*)]\(([^(]+)\)\(([^\]]*)\)/g, '</p></div></div><img alt="$1" src="$2" class="content"><div class="content"><p>')
+			.replace(/!\[([^\]]*)]\(([^(]+)\)/g, '<img alt="$1" src="$2" class="content">')
 			.replace(/\[([^\]]+)]\(([^(]+)\)/g, '$1'.link('$2'))
 			.replace(/`([^`]+)`/g, '<code>$1</code>')
 			.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')

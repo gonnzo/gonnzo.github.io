@@ -1,0 +1,58 @@
+{
+	"pages":[
+		{
+			"title":"About",
+			"introduction":"",
+			"published": true,
+			"image":"",
+			"url":"about",
+			"pages":[]
+		},
+		{
+			"title":"Works",
+			"introduction":"",
+			"published": true,
+			"image":"",
+			"url":"works",
+			"pages":[
+				{
+					"title":"3D-Halsman",
+					"introduction":"Instantáneas en 3D instantáneo",
+					"published": true,
+					"image":"uploads/3dhalsman.gif",
+					"url":"works/3D-Halsman",
+					"pages":[
+
+					]
+				},
+				{
+					"title":"genKoan",
+					"introduction":"El sensei del futuro",
+					"published": true,
+					"image":"uploads/genkoan.png",
+					"url":"works/genKoan",
+					"pages":[
+
+					]
+				}
+
+			]
+		},
+		{
+			"title":"Team",
+			"introduction":"",
+			"published": true,
+			"image":"",
+			"url":"team",
+			"pages":[]
+		},
+		{
+			"title":"AGAP",
+			"introduction":"",
+			"published": true,
+			"image":"",
+			"url":"AGAP",
+			"pages":[]
+		}
+	]
+}

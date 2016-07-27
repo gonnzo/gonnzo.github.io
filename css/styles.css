@@ -1,6 +1,6 @@
 body{
-	background:#111;
-	color:#eee;
+	background:#fff;
+	color:#333;
 	font-family: Maitree;
 	font-weight: 200;
 	font-size: 16pt;
@@ -8,48 +8,94 @@ body{
 
 a {
 	text-decoration: none;
-	color:#9c0;
+	color:#d00;
 	font-weight: 400;
 }
 
 a:hover {
-	color:#fff;
+	color:#000;
 }
 .content {
 	width:980px;
 	margin: 0 auto;
 }
 
-img.default{
-	width:100%;
+p {
+	line-height: 30px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+.logo {
+	width:100%;
+	text-align: center
+}
+
+.logo img {
+	width:500px;
+	margin-top: 30px;
+}
+
+img.content{
+	width:100%;
+	margin-top: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	font-family: Oswald;
 }
 
 h1 {
-	font-size: 48pt;
-	color:#9c0;
+	font-size: 56pt;
+	color:#c00;
+	line-height: 40px;
 }
 
 h2 {
 	font-size: 36pt;
-	color:#0ae;
+	color:#000;
 	line-height: 30px;
+	width:100%;
+	float: left;
+	margin-top:50px;
 }
 
 
-@media only screen and (max-width: 980px) {
+h3 {
+	font-size: 30pt;
+	color:#093;
+	line-height: 40px;
+}
 
-	
+
+.menu {
+	width: 100%;
+	text-align: center;
+}
+
+.menu a {
+	display: inline-block;
+	background-color: #c00;
+	color:#fff;
+	padding:0px 20px;
+	margin:20px 5px;
+}
+
+.menu a:hover {
+	background-color: #000;
+	color:#fff;
+}
+
+.brick {
+	width:350px;
+	float:left;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 980px) {
 
 	.content {
 		width:100%;
 		min-width: 390px;
 	}
-
-
 
 }
