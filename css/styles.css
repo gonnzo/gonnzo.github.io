@@ -1,3 +1,20 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
 body{
 	background:#fff;
 	color:#333;
@@ -30,8 +47,8 @@ p {
 }
 
 .logo img {
-	width:500px;
-	margin-top: 30px;
+	width:300px;
+	margin: 40px 0 30px 0;
 }
 
 img.content{
@@ -39,30 +56,47 @@ img.content{
 	margin-top: 20px;
 }
 
+
+p {
+	margin:0px;
+	padding: 0px;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	font-family: Oswald;
+	margin: 40px 0 5px 0;
+	clear: both;
 }
 
 h1 {
 	font-size: 56pt;
-	color:#c00;
+	color:#093;
 	line-height: 40px;
 }
 
 h2 {
-	font-size: 36pt;
-	color:#000;
-	line-height: 30px;
+	font-size: 30pt;
+	color:#c00;
+	line-height: 40px;
 	width:100%;
 	float: left;
-	margin-top:50px;
+	margin-top:20px;
+
 }
 
 
 h3 {
 	font-size: 30pt;
-	color:#093;
+	color:#000;
+	line-height: 40px;
+	margin-top: 70px;
+}
+
+
+h4 {
+	font-size: 30pt;
+	color:#666;
 	line-height: 40px;
 }
 
@@ -85,11 +119,26 @@ h3 {
 	color:#fff;
 }
 
-.brick {
-	width:350px;
-	float:left;
-	margin: 10px;
+#container {
+	margin: 40px auto 0 auto;
+	clear: both;
 }
+
+.brick {
+	width:330px;
+	margin: 20px;
+	line-height: 30px;
+}
+
+.brick span {
+	font-family: oswald; 
+	font-size:26pt;
+}
+
+.brick img {
+	width:100%;
+}
+
 
 @media only screen and (max-width: 980px) {
 
